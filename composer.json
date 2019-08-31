@@ -1,0 +1,13 @@
+{
+    "name": "snuzi/yii-rest-helpers",
+    "description": "Yii2 helpers for my projects.",
+    "require": {
+        "yiisoft/yii2": ">=2.0.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "snuzi\\YiiHelpers\\": "src/"
+        }
+	},
+    "minimum-stability": "dev"
+}
