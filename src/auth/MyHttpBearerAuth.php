@@ -1,6 +1,6 @@
 <?php
 
-namespace snuzi\YiiHelpers\api\auth;
+namespace snuzi\YiiHelpers\auth;
 
 use Yii;
 use yii\filters\auth\HttpBearerAuth;
