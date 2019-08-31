@@ -5,6 +5,14 @@ Helpers for my Yii2 projects
 ### Usage
 
 In rest controller put the following code:
+
+```
+use snuzi\YiiHelpers\auth\MyQueryParamAuth;
+use snuzi\YiiHelpers\auth\MyHttpBearerAuth;
+```
+
+And in behaviors function:
+
 ```
 public function behaviors()
 {
@@ -20,7 +28,7 @@ public function behaviors()
                 ],
 			]
         ];
-        
+
         .....
 
         return $behaviors;
